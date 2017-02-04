@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VipMovie Ticket</string>
+    <string name="receiptTitle">Movie Title</string>
+    <string name="receiptName">Name:</string>
+    <string name="receiptDate">Date:</string>
+    <string name="receiptTime">Show Time:</string>
+    <string name="receiptType">Movie Type:</string>
+    <string name="receiptPrice">Price for one Ticket:</string>
+    <string name="receiptTotalPrice">Total Price:</string>
+    <string name="receiptHowMany">No. of Tickets:</string>
+    <string name="receiptThank">Thank You</string>
+</resources>

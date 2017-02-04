@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">VipMovie Ticket</string>
+    <string name="receiptDate">Date:</string>
+    <string name="receiptHowMany">No. of Tickets:</string>
+    <string name="receiptName">Name:</string>
+    <string name="receiptPrice">Price for one Ticket:</string>
+    <string name="receiptThank">Thank You</string>
+    <string name="receiptTime">Show Time:</string>
+    <string name="receiptTitle">Movie Title</string>
+    <string name="receiptTotalPrice">Total Price:</string>
+    <string name="receiptType">Movie Type:</string>
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light">
+        
+
+
+    </style>
+</resources>

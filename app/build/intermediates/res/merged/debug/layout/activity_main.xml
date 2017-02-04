@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="#fff2e6"
+    tools:context="conestogac.movieticket.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+
+        >
+
+
+        <TextView
+            android:text="@string/receiptTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptTitle"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="#ff6666"
+            android:textStyle="bold"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp">
+        </LinearLayout>
+
+
+
+        <TextView
+            android:text="@string/receiptName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptName"
+            android:layout_marginTop="70dp"
+            android:textSize="22sp"
+            android:textColor="#ff6600"
+            android:textStyle="bold"/>
+
+
+
+
+        <TextView
+            android:text="@string/receiptDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptDate"
+            android:textColor="#ff6600"
+            android:layout_marginTop="120dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="@string/receiptTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptTime"
+            android:textColor="#ff6600"
+            android:layout_marginTop="170dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="@string/receiptType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptType"
+            android:textColor="#ff6600"
+            android:layout_marginTop="220dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="@string/receiptPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptPrice"
+            android:textColor="#ff6600"
+            android:layout_marginTop="270dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="@string/receiptHowMany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptHowMany"
+            android:textColor="#ff6600"
+            android:layout_marginTop="320dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="@string/receiptTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiptTotalPrice"
+            android:textColor="#ff6600"
+            android:layout_marginTop="370dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:text="@string/receiptThank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/receiptThank"
+        android:textColor="#e67300"
+        android:gravity="center"
+        android:layout_marginTop="420dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>
